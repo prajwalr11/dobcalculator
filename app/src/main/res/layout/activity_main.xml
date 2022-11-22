@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="60dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hey! Find your Age"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:textColor="@color/Text1"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HERE"
+        android:padding="10dp"
+        android:background="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:textColor="@color/Text1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="In Minutes!"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/Text1"
+        />
+
+    <Button
+        android:id="@+id/butdate"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textColor="@color/grey"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:text="CONVERT" />
+
+    <TextView
+        android:id="@+id/selectedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="01.01.2001"
+        android:textColor="@color/Text1"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected date"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/grey"
+        />
+
+    <TextView
+        android:id="@+id/agemin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="15000000"
+        android:textColor="@color/Text1"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected date"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/grey"
+        />
+
+
+</LinearLayout>
